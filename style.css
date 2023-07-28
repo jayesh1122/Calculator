@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background: linear-gradient(45deg,rgba(13, 2, 2, 0.837),black);
+}
+.container{
+    border: 3px solid rgb(105, 100, 100);
+    padding: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px rgba(113, 115, 119, 0.5 );
+
+}
+#inputbox{
+    text-align: right;
+    
+    padding:10px 10px 10px 2px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 30px;
+    background-color: rgb(204, 204, 204);
+
+
+}
+input::placeholder
+{
+    color: black;
+}
+button
+{   font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 78px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+    background-color: transparent;
+    text-shadow: 0px 2px 8pxpx rgb(239, 214, 208);
+
+}
+
+.equlbtn{
+    background-color: rgb(77, 223, 77);
+}
